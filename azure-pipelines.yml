@@ -24,7 +24,7 @@ stages:
       displayName: Build an image
       inputs:
         containerRegistry: 'docker-hub'
-        repository: 'zamanbek/currency-exchange-devops'
+        repository: 'zamanbek/currency-exchange-devopskz'
         command: 'buildAndPush'
         Dockerfile: '**/Dockerfile'
         tags: '$(tag)'
